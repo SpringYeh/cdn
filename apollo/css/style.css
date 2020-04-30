@@ -414,7 +414,7 @@ font
 --------------------------------------------------------------*/
 @font-face {
   font-family: nicetheme;
-  src: url('https://cdn.jsdelivr.net/gh/springyeh/cdn/apollo/font/FjallaOne.ttf') format("truetype");
+  src: url('font/FjallaOne.ttf') format("truetype");
 }
 .nicefont {
     font-family:nicetheme;

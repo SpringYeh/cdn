@@ -1,15 +1,15 @@
 /* 中文字体 - 精简版 */
 @font-face {
     font-family: YBKS;
-    src: url("/font/r-YBKS.ttf");
+    src: url("font/r-YBKS.ttf");
 }
 @font-face { /*细金陵体-雕刻字体 */
     font-family: JL;
-    src: url("/font/r-JL.ttf")
+    src: url("font/r-JL.ttf")
 }
 @font-face {
     font-family: miniZhuan-Fan;
-    src: url("/font/r-miniZhuan-Fan.ttf")
+    src: url("font/r-miniZhuan-Fan.ttf")
 }
 
 
@@ -23,7 +23,7 @@
 }
 @font-face {
     font-family: Avenir-Next;
-    src: url("/font/Avenir-Next.otf")
+    src: url("font/Avenir-Next.otf")
 }
 
 
