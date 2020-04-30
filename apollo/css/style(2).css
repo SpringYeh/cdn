@@ -1199,7 +1199,7 @@ img.biaoqing { /* 表情 */
 
 /* my-block in index.ejs */
 .my-block {
-	background: url(https://cdn.jsdelivr.net/gh/springyeh/cinimg/RXimg/myblockbg.jpg) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/apollo/images/bg/myblockbg.jpg) no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 }
@@ -1208,7 +1208,7 @@ img.biaoqing { /* 表情 */
 }
 .nice-dark-mode .my-block a:not(.btn){color:#000;}
 .bg-hover:hover {
-	background-image: url(https://cdn.jsdelivr.net/gh/springyeh/cinimg/RXimg/snow.gif);
+	background-image: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/apollo/images/bg/snow.gif);
 }
 .my-info-up {
 	padding: 2rem 1rem 0;
