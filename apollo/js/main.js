@@ -669,7 +669,6 @@ function tocBot() {
         $(this).attr('id', hyphenated);
         id++;
     });
-    console.log('id: ' + id);
     //若目录非空，这自动折叠作者图片，以及初始化目录插件
     if (id > 1) {
         $("#author_card-2").animate({ height: 'toggle' }, 900);
