@@ -1,0 +1,199 @@
+
+/* 书签模块style  bookMark */
+.bookmark-card{
+      transition: all 0.3s ease;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 20px 0;
+}
+.bookmark-card:hover{
+      transform: translateY(-3%);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.bookmark-container{
+	display: flex;
+	border: none;
+	color: #161b3d;
+	background-color: #f7f7f7;
+}
+.nice-dark-mode .bookmark-container{
+	background-color: #282c34;
+}
+
+.bookmark-content{
+	flex: 1;
+	padding: 20px;
+}
+.bookmark-name{
+      color: #333;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+.bookmark-link{
+	font-size: 14px;
+}
+.bookmark-cover{
+	position: relative;
+	min-width: 25%;
+	max-height: 100%;
+}
+.bookmark-cover img{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+      height: 100%;
+      margin: 0;
+	object-fit: cover;
+}
+.yellow-under a,.bookmark-card a,.bookmark-card a:hover {
+      text-decoration: none;
+}
+/* bookMark end */
+
+
+/* note tag  */
+.post-content .note {
+      position: relative;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-left-width: 5px;
+      border-radius: 3px;
+}
+
+.post-content .note p {
+      margin-bottom: 0;
+}
+.post-content .note h1,
+.post-content .note h2,
+.post-content .note h3,
+.post-content .note h4,
+.post-content .note h5,
+.post-content .note h6 {
+      margin-top: 0;
+}
+
+.post-content .note.default {
+      border-left-color: #777;
+      background-color: rgba(119,119,119,0.22);
+      color: #717171;
+}
+.post-content .note.default h2,
+.post-content .note.default h3,
+.post-content .note.default h4,
+.post-content .note.default h5,
+.post-content .note.default h6 {
+      color: #777;
+}
+.post-content .note.primary {
+      border-left-color: #6f42c1;
+      background-color: rgba(111,66,193,0.169);
+      color: rgba(81,45,168,0.941);
+}
+.post-content .note.primary h2,
+.post-content .note.primary h3,
+.post-content .note.primary h4,
+.post-content .note.primary h5,
+.post-content .note.primary h6 {
+      color: #6f42c1;
+}
+.post-content .note.info {
+      border-left-color: #428bca;
+      background-color: rgba(66,139,202,0.18);
+      color: #1e82d2;
+}
+.post-content .note.info h2,
+.post-content .note.info h3,
+.post-content .note.info h4,
+.post-content .note.info h5,
+.post-content .note.info h6 {
+      color: #428bca;
+}
+.post-content .note.success {
+      border-left-color: #5cb85c;
+      background-color: rgba(92,184,92,0.322);
+      color: #009688;
+}
+.post-content .note.success h2,
+.post-content .note.success h3,
+.post-content .note.success h4,
+.post-content .note.success h5,
+.post-content .note.success h6 {
+      color: #5cb85c;
+}
+.post-content .note.warning {
+      border-left-color: #f0ad4e;
+      background-color: rgba(240,173,78,0.188);
+      color: #ff9800;
+}
+.post-content .note.warning h2,
+.post-content .note.warning h3,
+.post-content .note.warning h4,
+.post-content .note.warning h5,
+.post-content .note.warning h6 {
+      color: #f0ad4e;
+}
+.post-content .note.danger {
+      border-left-color: #d9534f;
+      background-color: rgba(217,83,79,0.18);
+      color: #e91e63;
+}
+.post-content .note.danger h2,
+.post-content .note.danger h3,
+.post-content .note.danger h4,
+.post-content .note.danger h5,
+.post-content .note.danger h6 {
+      color: #d9534f;
+}
+
+.post-content .note.success,
+.post-content .note.default,
+.post-content .note.primary,
+.post-content .note.info,
+.post-content .note.warning,
+.post-content .note.danger {
+      margin: 25px 0%;
+}
+
+
+
+
+
+/* audio 、video 插件 */
+/*#article .aplayer ,
+#article .dplayer {
+    margin: 20px 0;
+}
+.aplayer .aplayer-title {
+      color: #666;
+}*/
+
+
+
+
+
+/* waterfall tag */
+.waterfall-container {
+      margin-bottom: 1em;
+}
+.waterfall-container p {
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0;
+}
+@media screen and (min-width: 1200px) {
+    .waterfall-container.max {
+      margin-left: -190px;
+      margin-right: -190px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .waterfall-container.max {
+      margin-left: calc((92vw - 100%) / 2 * -1);
+      margin-right: calc((92vw - 100%) / 2 * -1);
+    }
+}
+

@@ -1,0 +1,277 @@
+/* centerquote tag */
+.blockquote-center {
+    position: relative;
+    margin: 40px 0;
+    padding: 0;
+    border-left: none;
+    text-align: center;
+}
+.blockquote-center::before,
+.blockquote-center::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 24px;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-position: 0 -6px;
+    background-size: 22px 22px;
+}
+.blockquote-center::before {
+    top: -20px;
+    background-image: url("/images/quote-l.svg");
+    border-top: 1px solid #ccc;
+}
+.blockquote-center::after {
+    bottom: -20px;
+    background-image: url("/images/quote-r.svg");
+    border-bottom: 1px solid #ccc;
+    background-position: 100% 8px;
+}
+.blockquote-center p {
+    text-align: center;
+}
+
+
+/* 书签模块style  bookMark */
+.bookmark-card{
+      transition: all 0.3s ease;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 20px 0;
+}
+.bookmark-card:hover{
+      transform: translateY(-3%);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.bookmark-container{
+	display: flex;
+	border: none;
+	color: #161b3d;
+	background-color: #f7f7f7;
+}
+.nice-dark-mode .bookmark-container{
+	background-color: #282c34;
+}
+
+.bookmark-content{
+	flex: 1;
+	padding: 20px;
+}
+.bookmark-name{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+.bookmark-link{
+	font-size: 14px;
+}
+.bookmark-cover{
+	position: relative;
+	min-width: 25%;
+	max-height: 100%;
+}
+.bookmark-cover img{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/* bookMark end */
+
+
+/* note tag  */
+.post-content .note {
+      position: relative;
+      padding: 15px;
+      border: 1px solid #eee;
+      border-left-width: 5px;
+      border-radius: 3px;
+}
+
+.post-content .note p {
+      margin-bottom: 0;
+}
+.post-content .note h1,
+.post-content .note h2,
+.post-content .note h3,
+.post-content .note h4,
+.post-content .note h5,
+.post-content .note h6 {
+      margin-top: 0;
+}
+
+.post-content .note.default {
+      border-left-color: #777;
+      background-color: rgba(119,119,119,0.22);
+      color: #717171;
+}
+.post-content .note.default h2,
+.post-content .note.default h3,
+.post-content .note.default h4,
+.post-content .note.default h5,
+.post-content .note.default h6 {
+      color: #777;
+}
+.post-content .note.primary {
+      border-left-color: #6f42c1;
+      background-color: rgba(111,66,193,0.169);
+      color: rgba(81,45,168,0.941);
+}
+.post-content .note.primary h2,
+.post-content .note.primary h3,
+.post-content .note.primary h4,
+.post-content .note.primary h5,
+.post-content .note.primary h6 {
+      color: #6f42c1;
+}
+.post-content .note.info {
+      border-left-color: #428bca;
+      background-color: rgba(66,139,202,0.18);
+      color: #1e82d2;
+}
+.post-content .note.info h2,
+.post-content .note.info h3,
+.post-content .note.info h4,
+.post-content .note.info h5,
+.post-content .note.info h6 {
+      color: #428bca;
+}
+.post-content .note.success {
+      border-left-color: #5cb85c;
+      background-color: rgba(92,184,92,0.322);
+      color: #009688;
+}
+.post-content .note.success h2,
+.post-content .note.success h3,
+.post-content .note.success h4,
+.post-content .note.success h5,
+.post-content .note.success h6 {
+      color: #5cb85c;
+}
+.post-content .note.warning {
+      border-left-color: #f0ad4e;
+      background-color: rgba(240,173,78,0.188);
+      color: #ff9800;
+}
+.post-content .note.warning h2,
+.post-content .note.warning h3,
+.post-content .note.warning h4,
+.post-content .note.warning h5,
+.post-content .note.warning h6 {
+      color: #f0ad4e;
+}
+.post-content .note.danger {
+      border-left-color: #d9534f;
+      background-color: rgba(217,83,79,0.18);
+      color: #e91e63;
+}
+.post-content .note.danger h2,
+.post-content .note.danger h3,
+.post-content .note.danger h4,
+.post-content .note.danger h5,
+.post-content .note.danger h6 {
+      color: #d9534f;
+}
+
+.post-content .note.success,
+.post-content .note.default,
+.post-content .note.primary,
+.post-content .note.info,
+.post-content .note.warning,
+.post-content .note.danger {
+      margin: 25px 0%;
+}
+
+
+
+/* status 卡片 */
+.status-card {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    /* box-shadow: 0 1px 3px rgba(249,249,249,0.08), 0 0 0 1px rgba(26,53,71,.04), 0 1px 1px rgba(26,53,71,.06); */
+    /* border: 1px solid rgba(136, 150, 165, 0.075); */
+}
+
+.status-cover {
+    background-size: contain;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-radius: inherit;
+    padding: 25px 25% 25px 2%;
+    background-position: 108% 0;
+}
+.status-cover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+    background: -webkit-linear-gradient(right,rgba(255,255,255,0) 0%,#fff 25%);
+    background: linear-gradient(to left,rgba(255,255,255,0) 0%,#fff 20.5%);
+}
+.status-title {
+    color: #606975;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.status-title,
+.status-content {
+    position: relative;
+    z-index: 1;
+}
+.status-card .status-content p{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+/* audio 、video 插件 */
+#article .aplayer ,
+#article .dplayer {
+    margin: 20px 0;
+}
+.aplayer .aplayer-title {
+      color: #666;
+}
+
+
+/* chatbox */
+.chatbox:before,.chatbox:after{content:"";display:table}
+.chatbox:after{clear:both}
+.chatbox{zoom:1}
+.chatbox{display:block;padding:10px 0px;letter-spacing:1px}
+.chatbox .bub p{color:#fff!important;margin-bottom:0;font-size:1rem;}
+.chat_content .bub{display:block;max-width:600px;padding:10px 20px;word-wrap:break-word;}
+section.left .bub{float:left}
+section.right .bub{float:right}
+.chatbox .left .chat-arrow{width:0;height:0;display:block;float:left;margin-top:5px;border-left:20px solid transparent}
+.chatbox .right .chat-arrow{width:0;height:0;display:block;float:right;margin-top:5px;border-right:20px solid transparent}
+.chatbox .right .bub{border:2px solid #93D3B6;border-radius:5px;color:#fff;background:#93D3B6}
+.chatbox .right .chat-arrow{border-bottom:20px solid #93D3B6}
+.chatbox .left .bub{border:2px solid #d57976;border-radius:5px;color:#fff;background:#d57976}
+.chatbox .left .chat-arrow{border-bottom:20px solid #d57976}
+.left{float:left}
+.right{float:right}
+
+
+/* mermaid */
+pre.mermaid {
+      background-color: transparent !important;
+      padding: 0;
+      margin-bottom: 2em;
+      box-shadow: none;
+      text-align: center;
+}
+pre.mermaid:before {
+      display: none;
+}
