@@ -1,0 +1,121 @@
+/* 中文字体 - 精简版 */
+@font-face {
+    font-family: YBKS;
+    src: url("font/r-YBKS.ttf");
+}
+@font-face { /*细金陵体-雕刻字体 */
+    font-family: JL;
+    src: url("font/r-JL.ttf")
+}
+@font-face {
+    font-family: miniZhuan-Fan;
+    src: url("font/r-miniZhuan-Fan.ttf")
+}
+
+
+/* 英文字体 */
+@font-face {
+    font-family: josefin;
+    font-style: normal;
+    font-weight: 400;
+    src: url(//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.eot);
+    src: local('Josefin Sans'),local('JosefinSans-Normal'),url(//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.eot?#iefix) format('embedded-opentype'),url(//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.woff2) format('woff2'),url(//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.woff) format('woff'),url(//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.ttf) format('truetype'),url(//lib.baomitu.com/fonts/josefin-sans/josefin-sans-regular.svg#JosefinSans) format('svg')
+}
+@font-face {
+    font-family: Avenir-Next;
+    src: url("font/Avenir-Next.otf")
+}
+
+
+
+.poem-bg div.d-flex {
+    font-family: Avenir-Next,sans-serif;
+}
+
+#poem,#poem_info {
+    font-family: "Libian SC", STKaiti, "Songti SC", serif;
+}
+
+#about-saying {
+    font-family: JL;
+}
+#about-saying-from {
+    font-family: miniZhuan-Fan;
+}
+#link-saying {
+    font-family: YBKS;
+}
+
+.my-desc {
+	font-family: YBKS;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lobster Two Italic'), local('LobsterTwo-Italic'), url(https://fonts.gstatic.com/s/lobstertwo/v12/BngOUXZGTXPUvIoyV6yN5-fI1qeh5DKAc_g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lobster Two Bold Italic'), local('LobsterTwo-BoldItalic'), url(https://fonts.gstatic.com/s/lobstertwo/v12/BngTUXZGTXPUvIoyV6yN5-fI3hyE8R-iftLqTMc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster Two'), local('LobsterTwo'), url(https://fonts.gstatic.com/s/lobstertwo/v12/BngMUXZGTXPUvIoyV6yN5-fN5qWr4xCC.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Lobster Two';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lobster Two Bold'), local('LobsterTwo-Bold'), url(https://fonts.gstatic.com/s/lobstertwo/v12/BngRUXZGTXPUvIoyV6yN5-92w7CGwR2oefDo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+#PF {font-family: PingFang SC, Source Han Sans, Microsoft Yahei, sans-serif;}
+#kai {font-family: STKaiti;}
+#Li {font-family: "Libian SC";}
+#lastFont {font-family: "Hannotate SC";}
+
+/* 楷体 */
+.kai input,.kai button,.kai select,.kai optgroup,.kai option,.kai textarea,.kai blockquote,.kai dd,.kai dl,.kai figure,.kai form,.kai pre,.kai .h1,.kai .h2,.kai .h3,.kai .h4,.kai .h5,.kai .h6,.kai h1,.kai h2,.kai h3,.kai h4,.kai h5,.kai h6 {
+    font-family: STKaiti, PingFang SC, Lantinghei SC, Microsoft Yahei, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+body.kai {
+	font-family: STKaiti, PingFang SC, Microsoft Yahei, sans-serif;
+}
+/* 隶变 */
+.Li input,.Li button,.Li select,.Li optgroup,.Li option,.Li textarea,.Li blockquote,.Li dd,.Li dl,.Li figure,.Li form,.Li pre,.Li .h1,.Li .h2,.Li .h3,.Li .h4,.Li .h5,.Li .h6,.Li h1,.Li h2,.Li h3,.Li h4,.Li h5,.Li h6 {
+	font-family: josefin, "Libian SC", PingFang SC, Lantinghei SC, Microsoft Yahei, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+body.Li {
+	font-family: josefin, "Libian SC", PingFang SC, Microsoft Yahei, sans-serif;
+}
+/* 最后一个框，自行选择 */
+.lastFont input,.lastFont button,.lastFont select,.lastFont optgroup,.lastFont option,.lastFont textarea,.lastFont blockquote,.lastFont dd,.lastFont dl,.lastFont figure,.lastFont form,.lastFont pre,.lastFont .h1,.lastFont .h2,.lastFont .h3,.lastFont .h4,.lastFont .h5,.lastFont .h6,.lastFont h1,.lastFont h2,.lastFont h3,.lastFont h4,.lastFont h5,.lastFont h6 {
+	font-family: "Hannotate SC", PingFang SC, Lantinghei SC, Microsoft Yahei, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+}
+body.lastFont {
+	font-family: "Hannotate SC", PingFang SC, Microsoft Yahei, sans-serif;
+}
