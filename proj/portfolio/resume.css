@@ -190,31 +190,31 @@ body {
     margin: 60px calc((98% - 540px) / 10);
 }
 #skill-pic-1 {
-    background: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/skills/1.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/skills/1.png) no-repeat;
     width: 61px;
     height: 61px;
     margin: 0 auto;
 }
 #skill-pic-2 {
-    background: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/skills/2.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/skills/2.png) no-repeat;
     width: 61px;
     height: 61px;
     margin: 0 auto;
 }
 #skill-pic-3 {
-    background: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/skills/3.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/skills/3.png) no-repeat;
     width: 61px;
     height: 61px;
     margin: 0 auto;
 }
 #skill-pic-4 {
-    background: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/skills/4.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/skills/4.png) no-repeat;
     width: 61px;
     height: 61px;
     margin: 0 auto;
 }
 #skill-pic-5 {
-    background: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/skills/5.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/skills/5.png) no-repeat;
     width: 61px;
     height: 61px;
     margin: 0 auto;
@@ -235,12 +235,12 @@ body {
 .page-1 .header {
     position: relative;
     padding: 80px 0;
-    /* background-image: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/background/148.jpg);
+    /* background-image: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/background/148.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     background-attachment: fixed; */
-    background: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/background/148.jpg) no-repeat fixed;
+    background: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/background/148.jpg) no-repeat fixed;
     background-size: cover;
     background-position: center 0;
 }
@@ -261,7 +261,7 @@ body {
 .page-2 .header {
     position: relative;
     padding: 192px 0;
-    background-image: url(https://cinzano.oss-cn-shanghai.aliyuncs.com/images/background/26.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/portfolio/image/background/26.jpg);
     background-repeat: repeat;
     /* background-size: auto; */
     background-position: 65% 0;
