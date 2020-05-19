@@ -26,7 +26,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    background: url('https://cdn.jsdelivr.net/gh/SpringYeh/cdn/proj/clock/ios_clock.svg') center no-repeat;
+    background: url('./ios_clock.svg') center no-repeat;
     transform: translateY(-3px);
 }
 
