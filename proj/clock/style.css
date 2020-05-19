@@ -1,0 +1,77 @@
+html {
+    background: coral;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 9px auto;
+    padding: 2rem;
+    position: relative;
+    box-shadow:
+        0 0 0 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #EEE,
+        inset 0 0 10px #000,
+        0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-face {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: url('./ios_clock.svg') center no-repeat;
+    transform: translateY(-3px);
+}
+
+.hand {
+    width: 40%;
+
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1)
+}
+
+.main .hour {
+    width: 20%;
+    height: 8px;
+    border-radius: 50%;
+    left: 30%;
+    position: absolute;
+}
+
+.main .second {
+    position: absolute;
+    height: 3px;
+    width: 50%;
+    transform-origin: 90%;
+    right: 45%;
+    position: absolute;
+}
+
+.main .minute {
+    border-radius: 50%;
+}
+
+.center {
+    position: absolute;
+    width: 1.2rem;
+    background: black;
+    z-index: 8;
+    height: 1.2rem;
+    border-radius: 50%;
+    top: 48.5%;
+    left: 48%;
+}
