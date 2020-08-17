@@ -10,12 +10,14 @@ import os
 
 def file_name(file_dir):
     L = []
+    s = ""
     for root, dirs, files in os.walk(file_dir):
         for file in files:
             if os.path.splitext(file)[1] == '.gif':
                 L.append(os.path.splitext(file)[0])
-                print(os.path.splitext(file)[0])
-    # return L
+                # print(os.path.splitext(file)[0])
+                s +=os.path.splitext(file)[0]+'|'
+    return s
 
 
 def listdir(path, list_name):  # 传入存储的list
@@ -27,8 +29,8 @@ def listdir(path, list_name):  # 传入存储的list
             list_name.append(file_path)
 
 
-# print(file_name("./bili"))
-file_name("./bili")
+print(file_name("./qq"))
+# file_name("./bili")
 
 
 
