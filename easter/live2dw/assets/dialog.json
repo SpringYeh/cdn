@@ -1,0 +1,88 @@
+{
+    "mouseover": [
+        {
+            "selector": "#no-page a[href^='http']",
+            "text": [
+                "要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"
+            ]
+        },
+        {
+            "selector": "#comments .info",
+            "text": [
+                "想要去评论些什么吗？"
+            ]
+        },
+        {
+            "selector": "#header-tool",
+            "text": [
+                "深夜时要爱护眼睛呀"
+            ]
+        },
+        {
+            "selector": "#comment",
+            "text": [
+                "要吐槽些什么呢，请认真填写哦，垃圾评论是禁止事项"
+            ]
+        },
+        {
+            "selector": ".go_top",
+            "text": [
+                "回到开始的地方吧"
+            ]
+        },
+        {
+            "selector": "#author",
+            "text": [
+                "该怎么称呼你呢"
+            ]
+        },
+        {
+            "selector": "#email",
+            "text": [
+                "求求你们留下邮箱，我想回复你们，而且还可以收到回复通知"
+            ]
+        },
+        {
+            "selector": "#url",
+            "text": [
+                "你的家在哪里呢，好让我去参观参观"
+            ]
+        },
+        {
+            "selector": ".smilies-logo",
+            "text": [
+                "QQ、B站、贴吧、微博里好玩的表情这里都有哦"
+            ]
+        },
+        {
+            "selector": ".postprev",
+            "text": [
+                "去看上一篇吧"
+            ]
+        },
+        {
+            "selector": ".postnext",
+            "text": [
+                "去看下一篇吧"
+            ]
+        },
+        {
+            "selector": "#live2dcanvas",
+            "text": [
+                "干嘛呢你，快把手拿开",
+                "鼠…鼠标放错地方了！"
+            ]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#live2dcanvas",
+            "text": [
+                "是…是不小心碰到了吧",
+                "你看到我的小熊了吗",
+                "再摸的话我可要报警了！⌇●﹏●⌇",
+                "110吗，这里有个变态一直在摸我(ó﹏ò｡)"
+            ]
+        }
+    ]
+}
